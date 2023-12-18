@@ -1,0 +1,71 @@
+body {
+  background-image: url(https://th.bing.com/th/id/R.c7d00b6fbbbdb1b30cc07005887ca042?rik=Lwof1ebIPTh1YA&pid=ImgRaw&r=0);
+}
+.app-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: #b6adad; 
+  text-align: center;
+  margin-top: 100px;
+  background-image: url(https://thumbs.dreamstime.com/b/todo-list-seamless-pattern-universal-background-66678083.jpg);
+}
+.add-task-container {
+  margin-bottom: 20px;
+}
+.task-list-container {
+  margin-top: 20px;
+}
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  background-color: #fff; 
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+input[type="checkbox"] {
+  margin-right: 10px;
+}
+button {
+  background-color:cornflowerblue;
+  color: #fff; 
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-right: 10px;
+  margin-left: 10px;
+  box-shadow: 0 0 5px cyan;
+
+}
+button:hover {
+  background-color: cornflowerblue;
+
+}
+input[type="text"] {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+button.filter-button {
+  background-color: #007bff; 
+  color: #fff; 
+  border: none;
+  padding: 8px 12px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+button.filter-button:hover {
+  background-color: #0056b3;
+}
